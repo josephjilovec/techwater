@@ -1,42 +1,50 @@
 # TechWater
 
-**Stage:** Public website concept / visual prototype  
-**Venture category:** Water intelligence and conservation planning  
-**Parent studio:** Joseph Jilovec Venture Studio
+Water-use planning for small property portfolios. An early-stage venture from Joseph Jilovec Venture Studio.
 
-## Website design direction
+## Positioning
 
-Scientific editorial dashboard, white and blue-green, water-flow illustration, clean data cards.
+Start with the data you already have. TechWater is a reporting concept for property teams that want to understand billed water use, investigate changes and prioritize practical follow-up.
 
-## First-page architecture
+### Initial audience
 
-Clean hero → illustrative water-intelligence dashboard → visibility/insight/action framework.
+- **Small commercial portfolios:** Property managers overseeing a handful of offices, retail locations or mixed-use buildings with separate water records.
+- **Hands-on facilities teams:** Operators who can gather bills and investigate flagged changes with their maintenance providers.
+- **Water-efficiency specialists:** Professionals interested in a clearer data handoff before a site visit or equipment assessment.
 
-## Current implementation
+## Proposed first offer
 
-- `index.html` is a self-contained, responsive HTML/CSS landing page.
-- The page has working in-page navigation, descriptive copy, and simple custom CSS/SVG concept artwork.
-- Illustrative dashboard content and other design mockups are **not live services**.
-- No customer-data collection, payments, third-party tracking, or external API keys.
-- Motion is minimal and respects reduced-motion preferences.
-- These visuals are art-direction placeholders; final photography, high-resolution imagery, and polished assets will be developed during the dedicated design phase.
+**The Water Use Review** — A proposed reporting pilot for a small set of properties with readable billing history, a designated owner and a practical way to investigate changes.
 
-## Run locally
+- **A consistent bill register:** Record period dates, units, billed consumption and gaps. Keep unit conversions and source records traceable.
+- **An explained trend review:** Compare daily average usage across periods, with notes for occupancy, seasonality and property changes.
+- **A follow-up action log:** Separate data questions, site checks and specialist assessments. Assign the next step and record the outcome.
 
-Open `index.html` in a modern browser, or serve the folder using any static HTTP server.
+## Proposed validation milestones
 
-## Deploy to Vercel
+- **Validate available records:** Proposed discovery: work with 3 property operators to understand bill access, units and common data gaps.
+- **Trial a monthly review:** Test up to 10 properties over 3 reporting cycles, with permission to use records and a named follow-up owner.
+- **Measure actionability:** Track usable records, explained flags and completed site checks. Conservation savings and leak-detection performance are not claimed.
 
-Import this public repository into Vercel as a static site (Framework Preset: **Other**). No build command is required; the repository root contains `index.html`. Review the project settings and deployment preview before connecting a custom domain.
+These are planning targets, not achieved results. Availability, scope, partners and commercial terms have not been validated or established.
 
-## Next design iteration
+## Website
 
-Clarify residential vs commercial/irrigation target, define measurable customer outcomes, design a real sample dashboard with labeled synthetic data.
+- Buildless HTML/CSS/JavaScript; serve this repository root with any static server.
+- Responsive navigation, native FAQ disclosures, and a browser-local inquiry builder.
+- No submissions, analytics, tracking, payments, accounts, API integrations or persistent storage.
+- The inquiry builder creates an editable brief. Copy it or open an email draft; the visitor sends it themselves.
+- Keyboard navigation, form labels, focus outlines, skip link and reduced-motion support.
+- Hero raster asset is AI-generated concept imagery, optimized as WebP. It is not documentary evidence of a site, service or product. See `assets/IMAGE_NOTES.md`.
 
-## Confidential planning
+## Deployment
 
-Keep financial models, internal strategy, pricing experiments, private partners and proprietary implementation details in the private `josephjilovec/priv.venturefiles` repository, **not** in this public repo.
+Preserve the existing Vercel project and domains. Framework: Other; no build command; publish the repository root. Deployments depend on the repository's hosting integration.
 
-## Important
+## Validation
 
-The venture name is a working brand pending trademark/domain clearance. This page is a concept preview, not a claim that services, inventory, software integrations, or regulated offerings are operational.
+Check JavaScript syntax, internal anchors, asset existence and responsive layout. Run a browser preview to exercise mobile navigation, inquiry preparation, edits, copying and FAQ interactions. The website has no live service bookings.
+
+## Public scope
+
+Keep confidential financial models, pricing experiments and partner negotiations in private planning repositories. Working brand and pilot service remain subject to validation before commercial launch.

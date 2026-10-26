@@ -11,3 +11,18 @@ document.getElementById('brief-form').addEventListener('submit',e=>{e.preventDef
 document.getElementById('copy-brief').addEventListener('click',async()=>{const area=document.getElementById('brief-text');try{await navigator.clipboard.writeText(area.value);document.getElementById('copy-status').textContent='Copied. You can paste this into your preferred email app.'}catch{area.focus();area.select();document.getElementById('copy-status').textContent='Select and copy the brief above using your device’s copy command.'}});
 
 document.getElementById('brief-text').addEventListener('input',e=>{document.getElementById('email-brief').href='mailto:josephjilovec@pm.me?subject='+encodeURIComponent(PLAN.name+' — planning inquiry')+'&body='+encodeURIComponent(e.target.value)});
+
+const comparisonButtons = document.querySelectorAll('[data-comparison]');
+comparisonButtons.forEach(button => button.addEventListener('click', () => {
+  const daily = button.dataset.comparison === 'daily';
+  comparisonButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+  document.getElementById('period-a-bar').style.width = daily ? '80%' : '68.5714%';
+  document.getElementById('period-b-bar').style.width = '90%';
+  document.getElementById('period-a-value').textContent = daily ? '800 US gal/day' : '24,000 US gal';
+  document.getElementById('period-b-value').textContent = daily ? '900 US gal/day' : '31,500 US gal';
+  const summary = document.getElementById('comparison-summary');
+  summary.replaceChildren();
+  const lead = document.createElement('strong');
+  lead.textContent = daily ? '12.5% higher daily use.' : '31.3% higher billed total.';
+  summary.append(lead, document.createTextNode(daily ? ' The billing period was also five days longer.' : ' Compare per day to account for the different billing durations.'));
+}));

@@ -31,7 +31,7 @@ These are planning targets, not achieved results. Availability, scope, partners 
 ## Website
 
 - Buildless HTML/CSS/JavaScript; serve this repository root with any static server.
-- Responsive navigation, native FAQ disclosures, and a browser-local inquiry builder.
+- Responsive navigation, native FAQ disclosures, an illustrative billed-total / daily-average comparison, and a browser-local inquiry builder.
 - No submissions, analytics, tracking, payments, accounts, API integrations or persistent storage.
 - The inquiry builder creates an editable brief. Copy it or open an email draft; the visitor sends it themselves.
 - Keyboard navigation, form labels, focus outlines, skip link and reduced-motion support.

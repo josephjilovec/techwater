@@ -4,7 +4,7 @@ Public website: https://techwater.josephjilovec.com/
 
 ## Website
 
-A water-led editorial site for a proposed bill-based property reporting service. The homepage follows a fictional record through source quantities, daily comparison, property context, and a follow-up question. The sample-review page lets visitors compare billed totals with daily use, select context notes, and inspect the original fictional report. The start page assembles an editable local readiness note.
+A water-led editorial site for a proposed bill-based property reporting service. The homepage presents one fictional Water Use Review as an editorial spread, with both periods, daily-use comparison, and a property question visible together. The sample-review page lets visitors compare billed totals with daily use, select context notes, and inspect the original fictional report. The start page assembles an editable local readiness note.
 
 Static HTML, CSS, and JavaScript. Serve the repository root. Preserve the current Vercel project, domains, and buildless deployment settings. No framework build or dependency installation is required.
 
@@ -20,4 +20,4 @@ Semantic landmarks, native dialogs with Escape and focus return, visible focus, 
 
 ## Maintenance checks
 
-Check JavaScript syntax, local paths and anchors, and source-report arithmetic. Verify desktop and narrow layouts, scroll chapters, native menu and report dialogs, comparison/context controls, and note creation/edit/copy/download. An email draft is not a delivery test. Do not add real records or private business plans to the public site.
+Check JavaScript syntax, local paths and anchors, and source-report arithmetic. Verify desktop and narrow layouts, the editorial sample, native menu and report dialogs, comparison/context controls, and note creation/edit/copy/download. An email draft is not a delivery test. Do not add real records or private business plans to the public site.

@@ -178,28 +178,12 @@
 
   root.classList.add('js');
 
-  const chapters = [...document.querySelectorAll('[data-chapter]')];
-  const scenes = [...document.querySelectorAll('[data-scene]')];
-  const dots = [...document.querySelectorAll('.scene-progress i')];
-  let currentChapter = '';
   let scrollQueued = false;
   const updateScroll = () => {
     scrollQueued = false;
     const scrollable = root.scrollHeight - root.clientHeight;
     root.style.setProperty('--scroll', String(scrollable > 0 ? Math.min(1, Math.max(0, window.scrollY / scrollable)) : 0));
-    if (!chapters.length) return;
-    const target = window.innerHeight * 0.5;
-    const active = chapters.reduce((best, chapter) => {
-      const box = chapter.getBoundingClientRect();
-      const distance = Math.abs((box.top + box.bottom) / 2 - target);
-      return !best || distance < best.distance ? { chapter, distance } : best;
-    }, null).chapter;
-    if (active.dataset.chapter === currentChapter) return;
-    currentChapter = active.dataset.chapter;
-    const index = chapters.indexOf(active);
-    scenes.forEach(scene => scene.classList.toggle('is-current', scene.dataset.scene === currentChapter));
-    dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
-    document.getElementById('scene-count').textContent = String(index + 1).padStart(2, '0') + ' / 04';
+
   };
   const queueScroll = () => {
     if (!scrollQueued) { scrollQueued = true; requestAnimationFrame(updateScroll); }

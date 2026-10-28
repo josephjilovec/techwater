@@ -1,0 +1,98 @@
+{
+  "notice": "Original AI concept imagery, not customer properties or water-quality evidence.",
+  "images": [
+    {
+      "id": "water-horizon",
+      "prompt": "Use case: photorealistic-natural. Asset type: original full-bleed website background for TechWater, a commercial-property water-use REPORTING service concept, not a hardware or drinking-water product. Create an atmospheric cinematic landscape view across a calm freshwater surface at the first light of dawn. The camera is extremely close to the water, with a low distant horizon in the upper third, dark teal depth in the foreground, translucent turquoise ripples and a restrained warm pale-salmon glow at the horizon. Refined, tactile, natural water reflections and subtle mist, very wide open composition, no strong central object. Leave calm darker visual space through the left and middle for large website typography built separately. Photoreal premium environmental editorial image, soft natural light, rich deep petrol and mineral teal palette. Imagined non-identifiable place, not documentary evidence of water quality. No bottle, no plastic waste, no fish, no sensor or meter hardware, no buildings, no people, no text, no logo, no watermark.",
+      "generation_method": "built-in image_gen",
+      "concept_only": true,
+      "original_sha256": "150961b1c506620574be31bfc086238d7962387fb7a59fcc6cd79439d01e95eb",
+      "original_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/water-horizon-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 23280
+        },
+        {
+          "path": "assets/water-horizon-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 46004
+        },
+        {
+          "path": "assets/water-horizon-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 86942
+        }
+      ]
+    },
+    {
+      "id": "water-texture",
+      "prompt": "Use case: photorealistic-natural. Asset type: abstract editorial background texture for a premium TechWater website about understanding water-use records. A close, almost top-down view into gently moving dark teal water, intricate soft turquoise caustics and organic light refractions, translucent layers with a sense of depth, restrained cinematic lighting, tactile and natural, wide landscape composition. The center remains relatively calm for a report-interface overlay added later in code. Deep petrol shadows, a few cool pale aqua highlights, no bright blown-out areas. Not a data chart or an actual tested water sample. No objects, no plastic, no fish, no bubbles arranged as a diagram, no sensors, no equipment, no human hands, no text, no logo, no watermark.",
+      "generation_method": "built-in image_gen",
+      "concept_only": true,
+      "original_sha256": "35fa76a6fde53b54cde5f90441a8631f3bba06e1ece9dcc2882cbd82259aa189",
+      "original_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "variants": [
+        {
+          "path": "assets/water-texture-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 36280
+        },
+        {
+          "path": "assets/water-texture-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 77812
+        },
+        {
+          "path": "assets/water-texture-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 153966
+        }
+      ]
+    },
+    {
+      "id": "property-context",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium commercial-property editorial photograph for TechWater, a bill-based water-use reporting concept. An imagined modest contemporary low-rise commercial office courtyard in the American Southwest at early morning: textured pale stone and concrete architecture, restrained native grasses and a mature shade tree, glass office windows with soft warm reflections, a clean walkway, quiet everyday property context. Camera at human height, spacious architectural landscape framing with open space in the left half for website typography, beautiful soft teal-blue shade with warm off-white sunlight. Professional architectural magazine realism, no luxury resort, no pool, no fountain, no water-wasting spectacle, no visible meter or sensor hardware, no people, no businesses or recognizable landmarks. Fictional property, not a customer or managed site. No signs, lettering, logos or watermark.",
+      "generation_method": "built-in image_gen",
+      "concept_only": true,
+      "original_sha256": "cbb08b11274477ecc3f28146f2ecec9d4a8f84636e9fac694ff106aeac166714",
+      "original_dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "variants": [
+        {
+          "path": "assets/property-context-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 68022
+        },
+        {
+          "path": "assets/property-context-1000.webp",
+          "width": 1000,
+          "height": 667,
+          "bytes": 160312
+        },
+        {
+          "path": "assets/property-context-1600.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 343548
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # TechWater
 
-Public website: https://techwater.josephjilovec.com/
+Public website: https://techwater.summithillholdings.com/
 
 ## Website
 

@@ -111,9 +111,7 @@
     const status = document.getElementById('draft-status');
     const records = [...form.querySelectorAll('[name=records]')];
     const updateEmail = () => {
-      email.href = 'mailto:josephjilovec@pm.me?subject=' +
-        encodeURIComponent('TechWater — data-readiness conversation') +
-        '&body=' + encodeURIComponent(area.value);
+      email.href = 'https://summithillholdings.com/contact?venture=techwater';
     };
     const updateReadiness = () => {
       const count = records.filter(record => record.checked).length;
@@ -156,7 +154,7 @@
     document.querySelector('[data-copy]').addEventListener('click', async () => {
       try {
         await navigator.clipboard.writeText(area.value);
-        status.textContent = 'Copied. Paste the note into your preferred email app.';
+        status.textContent = 'Copied. Paste the note into your contact page after opening it.';
       } catch {
         area.focus();
         area.select();

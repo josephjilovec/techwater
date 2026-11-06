@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://techwater.josephjilovec.com/sitemap.xml
+Sitemap: https://techwater.summithillholdings.com/sitemap.xml

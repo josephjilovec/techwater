@@ -4,13 +4,13 @@ Public website: https://techwater.summithillholdings.com/
 
 ## Website
 
-A water-led editorial site for a proposed bill-based property reporting service. The homepage presents one fictional Water Use Review as an editorial spread, with both periods, daily-use comparison, and a property question visible together. The sample-review page lets visitors compare billed totals with daily use, select context notes, and inspect the original fictional report. The start page assembles an editable local readiness note.
+A water-led editorial site for a scoped bill-based property and utility-data reporting service. The homepage presents one fictional Water Use Review as an editorial spread, with both periods, daily-use comparison, and a property question visible together. The sample-review page lets visitors compare billed totals with daily use, select context notes, and inspect the original fictional report. The start page assembles an editable local readiness note.
 
 Static HTML, CSS, and JavaScript. Serve the repository root. Preserve the current Vercel project, domains, and buildless deployment settings. No framework build or dependency installation is required.
 
 ## Public functionality
 
-All sample records are fictional. No account, meter, provider network, alerting system, payments, bookings, or analytics are connected. The proposed service remains in development. The first review is based on existing bills or authorized exports; it does not require a hardware purchase or imply live leak detection, water-safety evaluation, or achieved savings.
+All sample records are fictional. No account, meter, provider network, alerting system, payments, bookings, or analytics are connected. Services are offered through an agreed written scope; demonstrations do not establish production integrations or customer results. The first review is based on existing bills or authorized exports; it does not require a hardware purchase or imply live leak detection, water-safety evaluation, or achieved savings.
 
 The inquiry stays in the visitor’s browser. Copy, text download, and an optional email draft are user-controlled. The website does not automatically transmit or save the fields. Only the motion preference can be remembered in tab session storage.
 
@@ -21,3 +21,7 @@ Semantic landmarks, native dialogs with Escape and focus return, visible focus, 
 ## Maintenance checks
 
 Check JavaScript syntax, local paths and anchors, and source-report arithmetic. Verify desktop and narrow layouts, the editorial sample, native menu and report dialogs, comparison/context controls, and note creation/edit/copy/download. An email draft is not a delivery test. Do not add real records or private business plans to the public site.
+
+## Current offer — November 17, 2026
+
+The homepage supports property portfolios, consultants, and multi-site teams with bounded CSV/Excel cleanup, unit/period normalization, exception logs, and reproducible summaries. Contact: techwater@summithillholdings.com. The development banner had already been removed in the current source; do not restore it or invent field-deployment, water-safety, or federal past-performance claims.

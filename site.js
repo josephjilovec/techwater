@@ -135,7 +135,7 @@
         'Available records and ownership: ' + (data.getAll('records').join(', ') || 'Not yet confirmed') + '\n' +
         'General property context: ' + (String(data.get('context') || '').trim() || 'To discuss') + '\n\n' +
         'Please help identify missing information and whether a bill-based reporting pilot is suitable.\n\n' +
-        'I understand this service is in development. Please confirm availability and agree the scope before any engagement.';
+        'Please confirm availability and proposed fixed-fee scope before any engagement.';
       updateEmail();
       result.hidden = false;
       status.textContent = 'Draft created in this browser. Nothing has been sent.';
